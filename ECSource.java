@@ -11,7 +11,10 @@ class Node<T> {
 class ECSource {
   public static <T> T getNodeValue(Node<T> head, int index) {
     // todo - note the return type, but don't overthink it
-    return;
+
+
+
+    return head.val;
   }
   
   public static void main(String[] args) {
